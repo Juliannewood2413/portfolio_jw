@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/floicon.png">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/90ec5b31cd.js" crossorigin="anonymous"></script>
+    <!-- JS link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+    <script src ="./style.js"></script>
+  </head>
+  <body>
+    <!-- begin nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav bar -->
+    <!-- header -->
+    <div id="page-wrap">
+
+      <div class="row" id="portSection">
+        <section class="container-fluid containera col-md-9" id="portfolioBox">
+     <div class="link-icons">
+      <button class="btn" id="gitIcon">GitHub<br><i class="fab fa-github fa-2x"></i></button>
+      <button class="btn" id="linkedIcon">LinkedIn<br><i class="fab fa-linkedin fa-2x"></i></button>
+      <button class="btn" id="resumeBtn">Resume<br><i class="fas fa-paperclip fa-2x"></i></button>
+     </div>
+
+    <!-- portfolio information -->
+
+    <!-- gitHub info -->
+      <!-- Add carousel here -->
+      <div class="row row-cols-1 row-cols-md-3" id="portfolioBox">
+        <div class="col mb-4">
+          <div class="card h-100" id="portCards">
+            <img
+              src="./assets/weather-dashboard.PNG"
+              class="card-img-top"
+              alt="Weather Dashboard"
+            />
+            <div class="card-body" id="link1">
+              <h5 class="card-title"></h5>
+              <button type="button" class="btn btn-secondary" id="repo1">Check out this repo!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-80" id="portCards">
+            <img
+              src="./assets/work-day-scheduler.PNG"
+              class="card-img-top"
+              alt="Work Day Scheduler"
+            />
+            <div class="card-body" id="link2">
+              <h5 class="card-title"></h5>
+              <button type="button" class="btn btn-secondary" id="repo2">Check out this repo!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" id="portCards">
+            <img
+              src="./assets/trivial.PNG"
+              class="card-img-top"
+              alt="Lets Get Trivial"
+            />
+            <div class="card-body" id="link3">
+              <h5 class="card-title"></h5>
+              <button type="button" class="btn btn-secondary" id="repo3">Check out this repo!</button>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+  </div>
+  </div>
+  </body>
+</html>

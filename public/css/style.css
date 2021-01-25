@@ -1,0 +1,140 @@
+/* main page */
+
+#navbar {
+  height: 80px;
+  /* background-image: url("../../assets/geometricbkgrdedit.jpg"); */
+}
+
+/* img {
+  width: 320px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  position: relative;
+  float: left;
+  display: inline;
+  border-radius: 30px;
+} */
+
+body {
+  background-image: url("../../assets/floralbkgrd.jpg");
+  background-color: peachpuff;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#landingImg {
+  text-align: center;
+}
+
+#page-wrap {
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+#aboutme,
+#contactme,
+#portSection {
+  margin-top: 100px;
+}
+
+#aboutInfo {
+  border-radius: 10px;
+  position: relative;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutbox,
+#portfolioBox,
+#contactbox {
+  background-color: rgba(0, 0, 0, 0.548);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+p {
+  margin-left: 25px;
+  margin-top: 15px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+/* end main page */
+
+/* portfolio page */
+.containera {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  background-color: rosybrown;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.p_img {
+  border: 1px solid oldlace;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#gitIcon,
+#linkedIcon,
+#resumeBtn,
+#emailLink {
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+#portCards {
+  background-color: oldlace;
+  border-radius: 15px;
+}
+
+/* end portfolio page */
+
+/* contact page */
+
+#contactme {
+  color: rgba(255, 255, 255, 0.781);
+}
+
+#eMail,
+#linkedIcon2 {
+  background-color: oldlace;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* end email form */
+
+/* git hub and FB account page */
+
+#github {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  margin-left: 60px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  width: 89.6%;
+  height: 150px;
+  background-color: rosybrown;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+}
