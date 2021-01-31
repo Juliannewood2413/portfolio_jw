@@ -17,6 +17,14 @@ $("#repo4").click(function(){
     window.open('https://peer-2-paws.herokuapp.com/')
 })
 
+$("#repo5").click(function(){
+    window.open('https://juliannewood2413.github.io/PasswordGenerator/')
+})
+
+$("#repo6").click(function(){
+    window.open('https://cryptic-brushlands-37743.herokuapp.com/')
+})
+
 $("#gitIcon").click(function(){
     window.open("https://github.com/Juliannewood2413")
 })
