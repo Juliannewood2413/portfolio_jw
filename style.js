@@ -13,6 +13,10 @@ $("#repo3").click(function(){
     window.open("https://juliannewood2413.github.io/Lets_get_trivial/")
 })
 
+$("#repo4").click(function(){
+    window.open('https://peer-2-paws.herokuapp.com/')
+})
+
 $("#gitIcon").click(function(){
     window.open("https://github.com/Juliannewood2413")
 })
@@ -24,6 +28,21 @@ $("#linkedIcon").click(function(){
 $("#resumeBtn").click(function(){
     window.open("https://juliannewood2413.github.io/Resume_file/")
 })
+
+//Carousel
+// $("#myCarousel").carousel();
+
+// // Enable Carousel Indicators
+// $(".item").click(function(){
+//     event.preventDefault();
+//   $("#myCarousel").carousel(1);
+// });
+
+// // Enable Carousel Controls
+// $(".left").click(function(){
+//     event.preventDefault();
+//   $("#myCarousel").carousel("prev");
+// });
 
 
 //Contact Page links
